@@ -1,0 +1,76 @@
+body{
+	background-color: lightseagreen; /*would usually turn bg colour off if you have a image*/
+	background-image: url(../images/bg.jpg); /* can add multiple bg images by adding an additional url after the , */
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+		.main{
+			max-width: 600px;
+			background-color:mintcream;
+			margin: 0 auto;
+			padding:30px;
+			border-radius: 10px;
+			opacity: 0.8; /*makes the box transparent*/
+			box-shadow: 0 0 10px 5px lightseagreen; /*the first is horizontal offset of the shadow, 2nd is vertical, 3rd is the blur, 4th is the size of shadow. and final is colour*/
+}
+
+		h1{	font-family: 'Julius Sans One', sans-serif;
+			text-align: center;
+			font-size: 40px;
+			margin: 0;
+			color: lightseagreen;
+
+
+}
+
+		h2{
+			text-align: center;
+			text-transform: uppercase;
+			letter-spacing: 10px
+			font-weight:normal;
+}
+
+		h3{text-decoration: underline;
+			margin-bottom: 0
+}
+
+h3:hover{
+	color:grey;
+	cursor:pointer;
+}
+
+
+
+		img{border-radius: 50%;
+			display: block;
+			margin:0 auto;
+			width: 300px;
+			border: 5px solid grey;
+
+
+}
+
+		p{text-align: justify}
+
+		p,
+		ul,
+		ol{
+			line-height: 1.5;	
+			list-style: none;
+			padding-left: 0;
+}
+
+		a{
+			color:black;
+			text-decoration:none;
+			font-weight: bold;
+}
+		
+		a:focus, /*looks for linked elements so you can tab between them*/
+		a:hover{
+			color: blue;
+			text-decoration:underline;
+}
